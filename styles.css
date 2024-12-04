@@ -24,3 +24,11 @@ img {
     width: 90%; 
 }
 
+form{
+    display: flex;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
