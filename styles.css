@@ -20,9 +20,21 @@ img {
     gap: 25px;
 }
 
+#cuadroform{
+    background-color: purple;
+}
+
+#form > div:nth-child(odd){
+    margin-left: 30px;
+}
+
+#cuadroform > h2{
+    margin-left: 30px;
+}
 
 form{
     display: flex;
+    margin: 30px;
 }
 
 .col{
