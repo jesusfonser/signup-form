@@ -123,3 +123,18 @@ input:invalid + span{
     font-size: 100px;
     margin: 0;
 }
+
+button[type="submit"]{
+    border-style: none;
+    padding: 10px 40px;
+    background-color: var(--account-button);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+a{
+    color: var(--account-button);
+    font-weight: bold;
+    text-decoration: none;
+}
