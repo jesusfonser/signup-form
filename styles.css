@@ -21,9 +21,16 @@ body{
     margin: 0;
 }
 
+span{
+    visibility: hidden;
+    font-size: 0.68rem;
+}
+
 label {
     font-size: 0.7rem;
     letter-spacing: 0.1rem;
+    font-weight: bold;
+    color: rgb(70, 70, 70);
 }
 
 img {
@@ -56,6 +63,11 @@ img {
 form{
     display: flex;
     margin: 30px;
+    gap: 60px;
+}
+
+.col > label:nth-child(n+2){
+    margin-top: 18px;
 }
 
 .col{
@@ -81,6 +93,28 @@ form{
 
 #black > img{
     height: 130px;
+}
+
+input{
+    padding: 0.4rem;
+    border-color: var(--input-border);
+    border-style: solid;
+    border-radius: 4px;
+}
+
+input:focus{
+    border-color: blue;
+    outline: 0;
+    box-shadow: 3px 3px 7px rgb(150, 149, 149);
+}
+
+input:invalid{
+    border-color: red;
+}
+
+input:invalid + span{
+    visibility: visible;
+    color: red;
 }
 
 #black > p{
