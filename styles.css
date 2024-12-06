@@ -1,3 +1,8 @@
+:root{
+    --input-border: #E5E7EB;
+    --account-button: #596D48;
+}
+
 @font-face {
     font-family: 'norsebold';
     src: url('fonts/norse-bold-webfont.woff2') format('woff2'),
@@ -8,11 +13,17 @@
 
 * {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
     display: flex;
     margin: 0;
+}
+
+label {
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
 }
 
 img {
@@ -35,9 +46,10 @@ img {
 
 #form > div:nth-child(odd){
     margin-left: 30px;
+    margin-right: 200px;
 }
 
-#cuadroform > h2{
+#cuadroform > h3{
     margin-left: 30px;
 }
 
