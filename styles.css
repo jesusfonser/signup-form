@@ -22,6 +22,7 @@ img {
 
 #cuadroform{
     background-color: purple;
+    box-shadow: 0 6px grey;
 }
 
 #form > div:nth-child(odd){
@@ -40,4 +41,17 @@ form{
 .col{
     display: flex;
     flex-direction: column;
+}
+
+#izqda{
+    position: relative;
+}
+
+#black{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    top: 100px;
+    left: 0px;
+    height: 150px;
 }
